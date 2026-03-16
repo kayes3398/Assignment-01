@@ -1,17 +1,18 @@
-.nav-container ,ul {
+.nav-container,
+ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
   gap: 32px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   max-width: 1350px;
   margin: 0 auto;
 }
-.nav-container ul{
+.nav-container ul {
   align-items: center;
 }
 
-.nav-container button{
+.nav-container button {
   background-color: #469165;
   border-radius: 7px;
   /* max-width: 164px; */
@@ -21,6 +22,55 @@
   font-weight: 700;
   margin: 10px 0;
   /* align-items: center; */
+}
 
-
+#hero-section {
+  background-image: url(./assets/hero-bg.png);
+  max-width: 1350px;
+  /* height: 580px; */
+  padding: 150px 0;
+  margin: 0 auto;
+  width: 71%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero-section .banner-container {
+  text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   */
+}
+.banner-btn button{
+  border-radius: 15px;
+  color:#469165;
+  background-color: #ffffff;
+  max-width: 229px;
+  padding: 8px 12px;
+}
+.banner-container h2{
+  font-weight: bold;
+  margin: 0 auto;
+  font-size: 50px;
+  color: #ffffff;
+  max-width: 500px;
+  line-height: 1.2;
+}
+.banner-container .banner-info{
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 28px;
+  /* font-weight: 250; */
+  /* max-width:550px; */
+}
+.banner-container .banner-btn-02 button{
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: transparent;
+  border:1px solid white;
+  padding: 12px;
+  gap: 16px;
+  margin-right: 16px;
 }
