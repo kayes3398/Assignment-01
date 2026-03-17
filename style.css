@@ -3,35 +3,46 @@ ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  gap: 32px;
+  /* gap: 32px; */
   background-color: #ffffff;
-  max-width: 1350px;
+  max-width: 1100px;
   margin: 0 auto;
+  /* width: 71%; */
+} 
+
+.nav-section{
+  max-width: 1350px;
 }
+
 .nav-container ul {
   align-items: center;
+}
+.nav-container ul li{
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  margin-right: 32px;
+
 }
 
 .nav-container button {
   background-color: #469165;
   border-radius: 7px;
-  /* max-width: 164px; */
   padding: 12px 16px;
   color: #ffffff;
   font-size: 16px;
-  font-weight: 700;
+  /* font-weight: 700; */
   margin: 10px 0;
   border: none;
-  /* align-items: center; */
 }
-
+/*  hero  */
 #hero-section {
   background-image: url(./assets/hero-bg.png);
   max-width: 1350px;
   /* height: 580px; */
-  padding: 150px 0;
+  padding: 120px 0;
   margin: 0 auto;
-  width: 71%;
+  width: 88%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,12 +55,27 @@ ul {
   align-items: center;
    */
 }
-.banner-btn button {
+.banner-btn button{
+ color: #469165;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  background-color:#ffffff;
+  padding: 6px 12px 6px 12px;
   border-radius: 15px;
-  color: #469165;
-  background-color: #ffffff;
-  max-width: 229px;
-  padding: 8px 12px;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+.banner-btn button .circle{
+  width: 13px;
+  height: 13px;
+  background-color:#469165;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 7px;
+  
 }
 .banner-container h2 {
   font-weight: bold;
@@ -74,6 +100,8 @@ ul {
   padding: 12px;
   gap: 16px;
   margin-right: 16px;
+  display:inline-flex;
+  align-items: center;
 }
 .card-heading h1 {
   font-weight: bold;
@@ -174,6 +202,9 @@ ul {
   font-weight: 700;
   margin: 10px 0;
   border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
 }
 footer {
   background-color: #001931;
