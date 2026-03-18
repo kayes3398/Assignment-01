@@ -106,7 +106,7 @@ ul {
 .card-heading h1 {
   font-weight: bold;
   font-size: 48px;
-  word-spacing: 30px;
+  /* word-spacing: 30px; */
 }
 .card-heading p {
   font-size: 16px;
@@ -174,7 +174,7 @@ ul {
   color: #469165;
 }
 .read-footer .read-me-container {
-  max-width: 1120px;
+  max-width: 950px;
   margin: 0 auto;
   background-color: #f7f6f2;
   padding: 90px;
